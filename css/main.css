@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,900;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.bg {
+  background-color: #e71d36;
+  -webkit-clip-path: polygon(63% 0, 73% 30%, 35% 100%, 0 100%, 0 0);
+          clip-path: polygon(63% 0, 73% 30%, 35% 100%, 0 100%, 0 0);
+  content: '';
+  height: 100vh;
+}
+
+body {
+  background-color: #2ec4b6;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50%;
+  margin: 0 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.row:nth-of-type(3) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fdfffc;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 400;
+  margin: 1% 0;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #011627;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-bottom: 1%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #011627;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .content {
+    margin: 0 7%;
+  }
+  .bg {
+    -webkit-clip-path: polygon(61% 0, 88% 23%, 34% 100%, 0 100%, 0 0);
+            clip-path: polygon(61% 0, 88% 23%, 34% 100%, 0 100%, 0 0);
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,900;1,700&display=swap');
+$base-color: #2ec4b6;
+$quote-color: #fdfffc;
+$anime-color: #011627;
+$character-color: #011627;
+*{
+    box-sizing: border-box;
+    margin: 0%;padding: 0%;
+}
+.bg{
+    background-color: #e71d36;
+    clip-path: polygon(63% 0, 73% 30%, 35% 100%, 0 100%, 0 0);
+    content: '';
+    height: 100vh;
+}
+body{
+    background-color: $base-color;
+    // margin: 12%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    margin: 0 10%;
+    transform: translateY(-50%);
+
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.row:nth-of-type(3){
+    justify-content: flex-end;
+}
+h1{
+    font-size: 5rem;
+    color: $quote-color;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    margin: 1% 0;
+    line-height: 1;
+}
+h2{
+    font-size: 2rem;
+    color: $anime-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+h3{
+    font-size: 1.5rem;
+    color: $character-color;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+@media all and (max-width: 480px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .content{
+        margin: 0 7%;
+    }
+    .bg{
+        clip-path: polygon(61% 0, 88% 23%, 34% 100%, 0 100%, 0 0);
+    }
+}
