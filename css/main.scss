@@ -24,9 +24,8 @@ body{
     flex-direction: column;
     position: absolute;
     top: 50%;
-    margin: 0 10%;
     transform: translateY(-50%);
-
+    margin: 0 10%;
 }
 .row{
     display: flex;
@@ -55,6 +54,7 @@ h3{
     color: $character-color;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    margin-top: 2%;
 }
 
 @media all and (max-width: 480px){

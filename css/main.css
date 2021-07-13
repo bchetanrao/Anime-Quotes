@@ -34,9 +34,9 @@ body {
           flex-direction: column;
   position: absolute;
   top: 50%;
-  margin: 0 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  margin: 0 10%;
 }
 
 .row {
@@ -74,6 +74,7 @@ h3 {
   color: #011627;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
+  margin-top: 2%;
 }
 
 @media all and (max-width: 480px) {
