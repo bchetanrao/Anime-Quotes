@@ -26,6 +26,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     margin: 0 10%;
+    overflow-y: scroll;
 }
 .row{
     display: flex;
