@@ -1,17 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,900;1,700&display=swap');
-$base-color: #2ec4b6;
-$quote-color: #fdfffc;
+$base-color: white;
+$quote-color: black;
 $anime-color: #011627;
 $character-color: #011627;
 *{
     box-sizing: border-box;
     margin: 0%;padding: 0%;
 }
+.bar{
+    height: 3px;
+    font-size: 0.5rem;
+    width: 90%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+h4{
+    font-size: 7rem;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+.header{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 3%;
+    h5{
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-left: 1%;
+    }
+}
 .bg{
-    background-color: #e71d36;
-    clip-path: polygon(63% 0, 73% 30%, 35% 100%, 0 100%, 0 0);
-    content: '';
-    height: 100vh;
+    background-color: rgb(255, 217, 0);
+    width: 60%;
+    content: ' ';
+    margin: 5% 0;
+    height: 100%;
+    position: absolute;
+    // transform: translateY(-50%);
+    z-index: 0;
+    overflow: visible;
 }
 body{
     background-color: $base-color;
@@ -22,20 +56,24 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0 10%;
+    margin: 15%;
+    position: relative;
+    z-index: 10;
 }
 .row{
     display: flex;
     width: 100%;
 }
+.row:nth-of-type(2){
+    justify-content: flex-end;
+    margin-right: 5%;
+}
 .row:nth-of-type(3){
     justify-content: flex-end;
+    margin-right: 5%;
 }
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color: $quote-color;
     font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
@@ -59,18 +97,34 @@ h3{
 
 @media all and (max-width: 480px){
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     h2{
-        font-size: 1.3rem;
-    }
-    h3{
         font-size: 1rem;
     }
-    .content{
-        margin: 0 7%;
+    h3{
+        font-size: 0.7rem;
+    }
+    h4{
+        // font-size: 4rem;
+        display: none;
+    }
+    .header{
+        z-index: 10;
+        position: relative;
+        h5{
+            font-size: 1.2rem;
+            margin-left: 4%;
+        }
     }
     .bg{
-        clip-path: polygon(61% 0, 88% 23%, 34% 100%, 0 100%, 0 0);
+        margin: 40% 0;
+        height: 100%;
     }
+    .content{
+        margin: 10% 7%;
+        position: absolute;
+        top: 30%;
+    }
+    
 }
