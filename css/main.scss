@@ -1,126 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,900;1,700&display=swap');
-$base-color: white;
-$quote-color: black;
-$anime-color: #011627;
-$character-color: #011627;
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0%;padding: 0%;
-}
-.bar{
-    height: 3px;
-    font-size: 0.5rem;
-    width: 90%;
-    background-color: black;
-    position: relative;
-    display: flex;
-    align-items: center;
-    border-radius: 25px;
-}
-h4{
-    font-size: 7rem;
-    font-family: serif;
-    color: rgba(0, 0, 0, 0.5);
-    margin: 0%;
-}
-.header{
-    display: flex;
-    // justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    margin-right: 3%;
-    a{
-        font-size: 1.5rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        margin-left: 1%;
-        background: linear-gradient(to top, yellow 50%, transparent 50%);
-        text-decoration: none;
-        color: black;
-    }
-    a:hover{
-        color: black;
-        background: none;
-    }
-}
-span{
-    font-size: 10rem;
-    font-weight: bold;
-    opacity: 0.7;
-    margin: 0;
-    height: 5.5rem;
-    position: relative;
-    left: -10%;
-}
-.bg{
-    background-color: rgb(255, 217, 0);
-    width: 60%;
-    content: ' ';
-    margin: 5% 0;
-    height: 100%;
-    position: absolute;
-    // transform: translateY(-50%);
-    z-index: 0;
-    overflow: visible;
+    margin: 0;padding: 0%;
+    font-family: 'Gilda Display', serif;
 }
 body{
-    background-color: $base-color;
-    // margin: 12%;
-}
-.content{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 15%;
-    position: relative;
+    background-color: #99ffe0;
+    background-image:#99ffe0;background-image:  
+    radial-gradient(at 100% 97%, hsla(139,71%,78%,1) 0, transparent 43%),  
+    radial-gradient(at 20% 0%, hsla(171,74%,73%,1) 0, transparent 43%),  
+    radial-gradient(at 72% 78%, hsla(265,91%,66%,1) 0, transparent 59%),  
+    radial-gradient(at 84% 15%, hsla(308,94%,69%,1) 0, transparent 57%),  
+    radial-gradient(at 1% 75%, hsla(188,93%,63%,1) 0, transparent 43%),  
+    radial-gradient(at 0% 0%, hsla(163,75%,78%,1) 0, transparent 58%),  
+    radial-gradient(at 28% 40%, hsla(273,75%,76%,1) 0, transparent 40%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+    
+}
+
+.header{
     z-index: 10;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    padding-right: 5%;
+    align-items: center;
+    .bar{
+        content: ' ';
+        display: flex;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        border-radius: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.7rem;
+        margin-left: 2%;
+    }
+}
+
+.content{
+    z-index: 10;
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
 }
 .row{
     display: flex;
     width: 100%;
 }
-.row:nth-of-type(3){
+.row:nth-of-type(3), .row:nth-of-type(4){
     justify-content: flex-end;
-    margin-right: 5%;
-}
-.row:nth-of-type(4){
-    justify-content: flex-end;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 h1{
     font-size: 3rem;
-    color: $quote-color;
-    font-family: 'Alfa Slab One', cursive;
-    font-weight: 400;
-    margin: 1% 0;
-    line-height: 1;
-    a{
-        text-decoration: none;
-        color: black;
-        background: linear-gradient(to top, yellow 50%, transparent 50%);
-    }
+    margin: 2%;
 }
 h2{
-    font-size: 2rem;
-    color: $anime-color;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    margin-bottom: 1%;
+    font-size: 1.5rem;
 }
 h3{
-    font-size: 1.5rem;
-    color: $character-color;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    margin-top: 2%;
-    background: linear-gradient(to top, yellow 50%, transparent 50%);
+    font-size: 1rem;
 }
-.section{
-    height: 100%;
+span{
+    font-size: 6rem;
+    margin: 0%;
+    height: 1.3rem;
+    opacity: 0.8;
 }
 
 @media all and (max-width: 480px){
+    .header{
+        padding-right: 2.5%;
+        a{
+            font-size: 1.2rem;
+        }
+    }
     h1{
         font-size: 2rem;
     }
@@ -130,32 +100,11 @@ h3{
     h3{
         font-size: 0.7rem;
     }
-    h4{
-        // font-size: 4rem;
-        display: none;
-    }
     span{
-        font-size: 5rem;
-        left: -7%;
-        height: 3rem;
-    }
-    .header{
-        z-index: 10;
-        position: relative;
-        margin-top: 7%;
-        h5{
-            font-size: 1.2rem;
-            margin-left: 4%;
-        }
-    }
-    .bg{
-        margin: 40% 0;
-        height: 100%;
+        font-size: 3rem;
+        height: 1rem;
     }
     .content{
-        margin: 10% 7%;
-        position: absolute;
-        top: 30%;
+        margin: 5%;
     }
-    
 }
