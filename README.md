@@ -8,6 +8,8 @@ This is a simple frontend project, which uses a third party Anime Quotes API to 
 
 ## Built with 
 HTML, CSS, JavaScript
+
+
 API used - https://animechan.vercel.app/
 
 ##
