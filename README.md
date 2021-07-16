@@ -8,6 +8,7 @@ This is a simple frontend project, which uses a third party Anime Quotes API to 
 
 ## Built with 
 HTML, CSS, JavaScript
+API used - https://animechan.vercel.app/
 
 ##
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e8643722-e67a-4064-9a48-5ec98c7a0c30/deploy-status)](https://app.netlify.com/sites/aniquo/deploys)
