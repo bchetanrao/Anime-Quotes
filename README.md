@@ -10,4 +10,4 @@ This is a simple frontend project, which uses a third party Anime Quotes API to 
 HTML, CSS, JavaScript
 
 ##
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b14ff6b1-773d-490d-bb6b-bf2059a40b20/deploy-status)](https://app.netlify.com/sites/gifyre/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8643722-e67a-4064-9a48-5ec98c7a0c30/deploy-status)](https://app.netlify.com/sites/aniquo/deploys)
