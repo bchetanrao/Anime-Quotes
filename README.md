@@ -1,6 +1,5 @@
 # Anime-Quotes
 
-
 ## Demo:
 Watch it live (hosted on Netlify) : https://aniquo.netlify.app/
 
