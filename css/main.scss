@@ -16,7 +16,7 @@ radial-gradient(at 3% 100%, hsla(91,80%,76%,1) 0, transparent 58%),
 radial-gradient(at 19% 56%, hsla(195,91%,73%,1) 0, transparent 46%),  
 radial-gradient(at 52% 21%, hsla(213,87%,66%,1) 0, transparent 45%),  
 radial-gradient(at 92% 4%, hsla(42,62%,73%,1) 0, transparent 40%);
-    background-size: auto;
+    background-size: cover;
     height: 100vh;
     color: white;
 }
@@ -87,7 +87,7 @@ span{
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 2%;
     h2{
         text-transform: uppercase;

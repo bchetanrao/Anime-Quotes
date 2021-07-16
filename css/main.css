@@ -20,7 +20,7 @@ body {
   background-color: #ff00e1;
   background-image: #ff00e1;
   background-image: radial-gradient(at 82% 60%, #9c5ed9 0, transparent 44%), radial-gradient(at 7% 39%, #7c6ee7 0, transparent 49%), radial-gradient(at 3% 100%, #c0f391 0, transparent 58%), radial-gradient(at 19% 56%, #7bd9f9 0, transparent 46%), radial-gradient(at 52% 21%, #5da1f4 0, transparent 45%), radial-gradient(at 92% 4%, #e5cb8f 0, transparent 40%);
-  background-size: auto;
+  background-size: cover;
   height: 100vh;
   color: white;
 }
@@ -114,7 +114,7 @@ span {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 2%;
 }
 
