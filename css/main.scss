@@ -8,15 +8,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff00e1;
-    background-image:#ff00e1;background-image:  
-radial-gradient(at 82% 60%, hsla(270,62%,61%,1) 0, transparent 44%),  
-radial-gradient(at 7% 39%, hsla(247,72%,67%,1) 0, transparent 49%),  
-radial-gradient(at 3% 100%, hsla(91,80%,76%,1) 0, transparent 58%),  
-radial-gradient(at 19% 56%, hsla(195,91%,73%,1) 0, transparent 46%),  
-radial-gradient(at 52% 21%, hsla(213,87%,66%,1) 0, transparent 45%),  
-radial-gradient(at 92% 4%, hsla(42,62%,73%,1) 0, transparent 40%);
-    background-size: cover;
+    background-color: #99aaff;
+    background-image:#99aaff;background-image:  
+radial-gradient(at 70% 89%, hsla(168,69%,64%,1) 0, transparent 45%),  
+radial-gradient(at 4% 15%, hsla(352,67%,71%,1) 0, transparent 57%),  
+radial-gradient(at 83% 45%, hsla(248,60%,61%,1) 0, transparent 53%),  
+radial-gradient(at 98% 98%, hsla(243,72%,62%,1) 0, transparent 51%),  
+radial-gradient(at 62% 17%, hsla(328,96%,66%,1) 0, transparent 49%),  
+radial-gradient(at 53% 99%, hsla(137,94%,79%,1) 0, transparent 48%),  
+radial-gradient(at 63% 30%, hsla(277,70%,67%,1) 0, transparent 42%);
+    // background-size: cover;
     height: 100vh;
     color: white;
 }

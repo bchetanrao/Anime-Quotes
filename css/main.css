@@ -17,10 +17,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ff00e1;
-  background-image: #ff00e1;
-  background-image: radial-gradient(at 82% 60%, #9c5ed9 0, transparent 44%), radial-gradient(at 7% 39%, #7c6ee7 0, transparent 49%), radial-gradient(at 3% 100%, #c0f391 0, transparent 58%), radial-gradient(at 19% 56%, #7bd9f9 0, transparent 46%), radial-gradient(at 52% 21%, #5da1f4 0, transparent 45%), radial-gradient(at 92% 4%, #e5cb8f 0, transparent 40%);
-  background-size: cover;
+  background-color: #99aaff;
+  background-image: #99aaff;
+  background-image: radial-gradient(at 70% 89%, #64e3c9 0, transparent 45%), radial-gradient(at 4% 15%, #e78491 0, transparent 57%), radial-gradient(at 83% 45%, #7060d7 0, transparent 53%), radial-gradient(at 98% 98%, #5f58e4 0, transparent 51%), radial-gradient(at 62% 17%, #fc55ae 0, transparent 49%), radial-gradient(at 53% 99%, #97fcb4 0, transparent 48%), radial-gradient(at 63% 30%, #b970e6 0, transparent 42%);
   height: 100vh;
   color: white;
 }
